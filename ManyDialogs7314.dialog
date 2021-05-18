@@ -50,7 +50,17 @@
       "$kind": "Microsoft.OnUnknownIntent",
       "$designer": {
         "id": "SZ9n9G"
-      }
+      },
+      "actions": [
+        {
+          "$kind": "Microsoft.BeginDialog",
+          "$designer": {
+            "id": "OG8tzZ"
+          },
+          "activityProcessed": true,
+          "dialog": "Dialog1"
+        }
+      ]
     }
   ],
   "$schema": "https://raw.githubusercontent.com/microsoft/BotFramework-Composer/stable/Composer/packages/server/schemas/sdk.schema",

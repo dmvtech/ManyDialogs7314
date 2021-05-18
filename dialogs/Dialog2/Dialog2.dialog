@@ -1,0 +1,33 @@
+{
+  "$kind": "Microsoft.AdaptiveDialog",
+  "$designer": {
+    "id": "b3COI2",
+    "name": "Dialog2",
+    "description": ""
+  },
+  "autoEndDialog": true,
+  "defaultResultProperty": "dialog.result",
+  "triggers": [
+    {
+      "$kind": "Microsoft.OnBeginDialog",
+      "$designer": {
+        "name": "BeginDialog",
+        "description": "",
+        "id": "UcXHli"
+      },
+      "actions": [
+        {
+          "$kind": "Microsoft.BeginDialog",
+          "$designer": {
+            "id": "9207U2"
+          },
+          "activityProcessed": true,
+          "dialog": "Dialog3"
+        }
+      ]
+    }
+  ],
+  "generator": "Dialog2.lg",
+  "recognizer": "Dialog2.lu.qna",
+  "id": "Dialog2"
+}

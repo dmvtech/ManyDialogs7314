@@ -1,0 +1,33 @@
+{
+  "$kind": "Microsoft.AdaptiveDialog",
+  "$designer": {
+    "id": "dsEVbU",
+    "name": "Dialog8",
+    "description": ""
+  },
+  "autoEndDialog": true,
+  "defaultResultProperty": "dialog.result",
+  "triggers": [
+    {
+      "$kind": "Microsoft.OnBeginDialog",
+      "$designer": {
+        "name": "BeginDialog",
+        "description": "",
+        "id": "naZMVV"
+      },
+      "actions": [
+        {
+          "$kind": "Microsoft.BeginDialog",
+          "$designer": {
+            "id": "vWtVvd"
+          },
+          "activityProcessed": true,
+          "dialog": "Dialog9"
+        }
+      ]
+    }
+  ],
+  "generator": "Dialog8.lg",
+  "recognizer": "Dialog8.lu.qna",
+  "id": "Dialog8"
+}
