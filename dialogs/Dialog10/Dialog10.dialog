@@ -15,7 +15,23 @@
         "description": "",
         "id": "Za4YzM"
       },
-      "actions": []
+      "actions": [
+        {
+          "$kind": "Microsoft.SendActivity",
+          "$designer": {
+            "id": "2ZaMoJ"
+          },
+          "activity": "${SendActivity_2ZaMoJ()}"
+        },
+        {
+          "$kind": "Microsoft.BeginDialog",
+          "$designer": {
+            "id": "kn3sbK"
+          },
+          "activityProcessed": true,
+          "dialog": "Dialog11"
+        }
+      ]
     }
   ],
   "generator": "Dialog10.lg",

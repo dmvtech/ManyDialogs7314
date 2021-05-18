@@ -1,8 +1,8 @@
 {
   "$kind": "Microsoft.AdaptiveDialog",
   "$designer": {
-    "id": "5yjHJR",
-    "name": "Dialog9",
+    "id": "Od7BVA",
+    "name": "Dialog11",
     "description": ""
   },
   "autoEndDialog": true,
@@ -13,28 +13,20 @@
       "$designer": {
         "name": "BeginDialog",
         "description": "",
-        "id": "qrHRhX"
+        "id": "QkQlwq"
       },
       "actions": [
         {
           "$kind": "Microsoft.SendActivity",
           "$designer": {
-            "id": "gkX0hl"
+            "id": "rzfn4j"
           },
-          "activity": "${SendActivity_gkX0hl()}"
-        },
-        {
-          "$kind": "Microsoft.BeginDialog",
-          "$designer": {
-            "id": "JoUIjY"
-          },
-          "activityProcessed": true,
-          "dialog": "Dialog10"
+          "activity": "${SendActivity_rzfn4j()}"
         }
       ]
     }
   ],
-  "generator": "Dialog9.lg",
-  "recognizer": "Dialog9.lu.qna",
-  "id": "Dialog9"
+  "generator": "Dialog11.lg",
+  "recognizer": "Dialog11.lu.qna",
+  "id": "Dialog11"
 }

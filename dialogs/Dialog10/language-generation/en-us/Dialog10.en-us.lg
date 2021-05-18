@@ -1,1 +1,6 @@
 [import](common.lg)
+
+# SendActivity_2ZaMoJ()
+[Activity
+    Text = Hit dialog 10!
+]
